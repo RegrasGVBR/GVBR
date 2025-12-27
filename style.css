@@ -22,6 +22,7 @@ body {
 
 .topo h1 {
     font-size: 32px;
+    color: #ffffff;
 }
 
 /* CONTEÚDO */
@@ -62,18 +63,32 @@ main {
 
 .regras h2 {
     margin-bottom: 15px;
+    color: #ffffff;
 }
 
 .regras ul {
     list-style: none;
 }
 
+/* CADA ITEM */
 .regras li {
     background-color: #1a1a1a;
     padding: 14px;
     margin-bottom: 10px;
     border-radius: 6px;
     color: #dddddd;
+}
+
+/* LINKS DAS CATEGORIAS (BRANCOS) */
+.regras a {
+    color: #ffffff;          /* remove azul */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* HOVER DISCRETO */
+.regras a:hover {
+    text-decoration: underline;
 }
 
 /* IMAGEM */
