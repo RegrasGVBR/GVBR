@@ -12,16 +12,17 @@ body {
     color: #ffffff;
 }
 
-/* CABEÇALHO */
-header {
-    text-align: center;
-    padding: 20px;
+/* TOPO COM LOGO */
+.topo {
     background-color: #141414;
+    padding: 30px;
+    text-align: center;
     border-bottom: 1px solid #222;
 }
 
-header p {
-    color: #aaaaaa;
+.logo {
+    max-width: 320px;
+    width: 100%;
 }
 
 /* CONTEÚDO */
@@ -42,14 +43,14 @@ main {
     font-weight: bold;
     border-radius: 8px;
     border: 1px solid #dddddd;
-    transition: all 0.2s ease;
+    transition: 0.2s ease;
 }
 
 .discord-btn:hover {
     background-color: #eaeaea;
 }
 
-/* LAYOUT DUAS COLUNAS */
+/* LAYOUT */
 .layout {
     display: flex;
     gap: 30px;
@@ -70,24 +71,13 @@ main {
 
 .regras li {
     background-color: #1a1a1a;
-    padding: 12px;
+    padding: 14px;
     margin-bottom: 10px;
     border-radius: 6px;
     color: #dddddd;
 }
 
-/* LINKS DAS REGRAS */
-.regras a {
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.regras a:hover {
-    text-decoration: underline;
-}
-
-/* IMAGEM */
+/* IMAGEM LATERAL */
 .imagem {
     flex: 1;
     display: flex;
