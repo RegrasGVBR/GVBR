@@ -47,7 +47,7 @@ main {
 }
 
 .discord-btn:hover {
-    background-color: #1a1a1a; /* hover mais claro, mas ainda preto/escuro */
+    background-color: #2c2c2c; /* hover mais claro, mas ainda preto/escuro */
 }
 
 /* LAYOUT */
@@ -120,3 +120,4 @@ footer {
         flex-direction: column;
     }
 }
+
