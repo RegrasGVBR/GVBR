@@ -14,7 +14,7 @@ body {
 
 /* TOPO */
 .topo {
-    background-color: #2c2c2c;
+    background-color: #000000;
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #222;
@@ -58,7 +58,7 @@ main {
     display: inline-block;
     margin-bottom: 25px;
     padding: 14px 22px;
-    background-color: #2c2c2c;
+    background-color: #000000;
     color: #000000;
     text-decoration: none;
     font-weight: bold;
@@ -141,4 +141,5 @@ footer {
         flex-direction: column;
     }
 }
+
 
